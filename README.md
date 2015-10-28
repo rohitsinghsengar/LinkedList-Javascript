@@ -6,8 +6,9 @@ Added basic functions for LinkedList
 - Pop, 
 - Shift, 
 - Unshift, 
-- removeDuplicates, 
-- removeSpecific 
+- Reverse,
+- Remove Duplicates, 
+- Remove Specific 
 
 Example
 
@@ -38,3 +39,5 @@ ll.shift(8); // ll -> 8,7,9,3,5,11,8
 ll.removeDuplicate(); // ll -> 8,7,9,3,5,11
 
 ll.removeSpecific(5); // ll -> 8,7,9,3,11
+
+ll.reverse(5); // ll -> 11,3,9,7,8
